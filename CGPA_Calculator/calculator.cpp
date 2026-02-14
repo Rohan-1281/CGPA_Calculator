@@ -12,6 +12,8 @@ public:
 
     Result_cal()
     {
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        
         cout << "\nEnter course name: ";
         getline(cin, course_name);
 
